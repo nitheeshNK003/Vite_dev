@@ -1,0 +1,8 @@
+build-job:
+  image : node
+  script:
+    - npm i
+    - npm run build
+  artifacts:
+    paths:
+      - ./build
