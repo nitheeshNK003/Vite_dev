@@ -1,0 +1,9 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "codespaces": {
+            "openFiles": ["README.md"]
+        }
+    },
+    "postCreateCommand": "echo \"This file was added by the postCreateCommand.\" > TEMP.md"
+}
